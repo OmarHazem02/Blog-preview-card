@@ -49,22 +49,44 @@ Once the HTML skeleton was complete, I worked from top to bottom, styling each s
 
 ### What I learned
 
+Through this project, I learned the importance of planning my page structure before starting to code. Breaking the layout into clear sections beforehand made the development process smoother and more efficient.
 
+I also practiced using Flexbox to align elements — for example, positioning the author’s image and name neatly at the bottom of the card. Additionally, I became more comfortable applying the box-sizing: border-box; property to maintain consistent element sizing and simplify layout control.
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="author">
+  <img src="assets/images/image-avatar.webp" alt="creator image" class="author-img" />
+  <p class="author-name">Greg Hooper</p>
+</div>
+
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.author {
+    display: flex;
+    gap: 15px;
 }
+.author-name {
+    font-weight: 800;
+    align-self: center;
+}
+/*====================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ```
 
 ### Continued development
 
+Strengthen my skills in Flexbox and CSS Grid to build more complex and flexible layouts.
 
+Focus on creating fully responsive designs that work seamlessly across all devices and screen sizes.
+
+Continue practicing and mastering CSS animations and shadow effects to make interfaces more engaging and visually appealing.
 
 ### Useful resources
 
